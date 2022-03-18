@@ -10,16 +10,20 @@
     <title>Jhorsax</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <p class="logo">Jhorsax</p>
-            <nav>
-                <a href="#">About me</a>
-                <a href="#">Projects</a>
-                <a href="#">Skills</a>
-            </nav>
-        </div>
-    </header>
+    <div id="header">
+        <header>
+            <div class="container">
+                <a href="#header" id="logo">
+                    <p class="logo">Jhorsax</p>
+                </a>
+                <nav>
+                    <a href="#aboutme">About me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </div>
+        </header>
+    </div>
     <section id="presentation">
         <h1>Jhordan Sax</h1>
         <span>Developer</span>
@@ -28,40 +32,45 @@
     <section id="aboutme">
         <div class="container">
             <div class="img-container"></div>
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloribus voluptatem assumenda. Eius rem explicabo beatae ab fugiat vel, nemo numquam veritatis libero. Similique a totam eveniet culpa maiores voluptatibus.</p>
+            <div class="textabout">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloribus voluptatem assumenda. Eius rem explicabo beatae ab fugiat vel, nemo numquam veritatis libero. Similique a totam eveniet culpa maiores voluptatibus.</p>
+            </div>
         </div>
     </section>
 
     <section id="projects">
-        <div class="carte-container">
+        <div class="container">
             <h2>My Projects</h2>
-            <div class="carte">
-                <h3>My page web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
-                <button>+ Info</button>
-            </div>
-            <div class="carte">
-                <h3>Bot in telegram</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
-                <button>+ Info</button>
-            </div>
-            <div class="carte">
-                <h3>Python</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
-                <button>+ Info</button>
+            <div class="projects">
+                <div class="carte">
+                    <h3>My page web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carte">
+                    <h3>Bot in telegram</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carte">
+                    <h3>Python</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto placeat veniam consequatur numquam magni repudiandae, totam reiciendis minus illum vero maxime. Fuga, natus atque nisi amet adipisci quis praesentium voluptates?</p>
+                    <button>+ Info</button>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
-            <ul>
+            <!-- <ul>
                 <li>Python</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JAVA</li>
-            </ul>
+            </ul> -->
+            <p class="frase">Solo Dios puede cambiar <br> tu vida</p>
         </div>
     </section>
     <footer id="footer">
