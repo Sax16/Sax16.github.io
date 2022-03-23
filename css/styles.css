@@ -181,7 +181,7 @@ header #logo {
     height: 60vh;
     text-align: center;
     font-size: 2.5em;
-    padding: 200px 12px;
+    padding-top: 100px;
 }
 
 #skills p {
@@ -348,6 +348,7 @@ header #logo {
         height: 75vh;
         text-align: center;
         font-size: 4.5em;
+        padding-top: 200px;
     }
 
     #skills p {
